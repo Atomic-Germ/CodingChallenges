@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 function findDuplicates(arr) {
     let sortedArray = arr.sort((a, b) => a - b);
     let result = [];
